@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/variables";
+
+#root, .App {
+    height: 100vh;
+
+    .login {
+        background-color: #f3f4f6;
+    }
+}
+
+.logo {
+    width: 80px;
+}
+
+.input-group-text {
+    .btn {
+        padding: 0;
+        color: #424649 !important;
+    }
+
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+}
